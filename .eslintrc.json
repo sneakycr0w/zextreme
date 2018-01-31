@@ -19,7 +19,12 @@
       "no-unused-vars": [
         1,
         {
-          "argsIgnorePattern": "res|next|^err"
+          "argsIgnorePattern": "res|next|^err",
+        }
+      ],
+      "no-unused-expressions": ["error", 
+        {
+          "allowTaggedTemplates": true
         }
       ],
       "arrow-body-style": [2, "as-needed"],
