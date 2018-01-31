@@ -9,5 +9,5 @@ script:
   - npm run build
 deploy: 
   provider: surge
-  project: ./public/
+  project: ./build/
   domain: z-extreme.surge.sh
