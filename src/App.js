@@ -3,12 +3,13 @@ import styled from 'react-emotion';
 import Header from './components/containers/Header/Header';
 
 const Container = styled('div')`
-  width: 500px;
+  max-width: 945px;
 `;
 
 const App = () => (
   <Container>
-    <Header />
+    <Header text="Z Extreme Productions" />
+    <p>This website is currently under construction</p>
   </Container>
 );
 
