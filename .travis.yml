@@ -11,3 +11,4 @@ deploy:
   provider: surge
   project: ./build/
   domain: z-extreme.surge.sh
+  skip_cleanup: true
