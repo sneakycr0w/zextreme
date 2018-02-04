@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'react-emotion';
 import Header from '../components/Header/Header';
-import RequestForm from '../components/Forms/RequestForm/RequestForm';
 
 const Container = styled('div')`
   max-width: 945px;
