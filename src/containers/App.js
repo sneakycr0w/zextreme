@@ -10,7 +10,6 @@ const App = () => (
   <Container>
     <Header text="Z Extreme Productions" />
     <p>This website is currently under construction</p>
-    <RequestForm />
   </Container>
 );
 
