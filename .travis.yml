@@ -10,4 +10,6 @@ deploy:
   provider: surge
   project: ./build/
   domain: z-extreme.surge.sh
+  on:
+    branch: dev
   skip_cleanup: true
