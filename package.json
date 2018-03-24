@@ -4,15 +4,16 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^8.2.2",
+    "bulma": "^0.6.2",
     "emotion": "^8.0.12",
     "eslint-plugin-html": "^4.0.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
     "react-emotion": "^8.0.12",
     "react-scripts": "1.1.0",
+    "react-slick": "^0.22.2",
     "uninstall": "0.0.0"
   },
   "scripts": {
