@@ -1,0 +1,49 @@
+{
+  "name": "Z Extreme Productions",
+  "private": true,
+  "version": "2.1.0",
+  "description": "Production repo for zextremeproductions.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "lint": "eslint --ext .js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sneakycrow/zextreme.git"
+  },
+  "author": "Zachary E Sohovich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sneakycrow/zextreme/issues"
+  },
+  "homepage": "https://github.com/sneakycrow/zextreme#readme",
+  "dependencies": {
+    "emotion": "^9.2.4",
+    "polished": "^1.9.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-emotion": "^9.2.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.1",
+    "eslint-plugin-react": "^7.10.0",
+    "parcel-bundler": "^1.9.4",
+    "prettier": "^1.13.7"
+  }
+}
